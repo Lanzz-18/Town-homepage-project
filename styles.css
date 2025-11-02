@@ -1,0 +1,106 @@
+
+body {
+    color: #134074;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px 0;
+    padding: 5px;
+    background: linear-gradient(to bottom, #eef4ed, #8da9c4);
+}
+
+header {
+    border-radius: 6px;
+    background-image: url("imgs/nuwara-eliya.jpg");
+    background-position: 10% 55%;
+    height: 250px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+.info-content {
+    display: flex;
+    justify-content: center;
+    gap: 3vh;
+    margin: 5vh 0;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 300px;
+}
+
+.img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+#strawberry-farms {
+    background-image: url("imgs/strawberry-farms.jpg");
+    background-position: 50%;
+    background-size: 300%;
+}
+
+#hortan-plains {
+    background-image: url("imgs/hortan-plains.webp");
+    background-position: 50%;
+    background-size: 300%;
+}
+
+#themparadu {
+    background-image: url("imgs/themparadu.jpg");
+    background-position: 50%;
+    background-size: 180%;
+}
+
+.guide-card {
+    display: flex;
+    gap: 5vh;
+    margin: 0 auto;
+    
+    width: fit-content;
+    height: fit-content;
+    background: linear-gradient(to bottom, #0096c7, #ade8f4);
+    padding: 5vh;
+    border-radius: 5px;
+}
+
+.guide-card img {
+    width: 250px;
+    height: 350px;
+    border-radius: 5px;
+}
+
+#guide-content {
+    text-align: center;
+    width: 160px;
+}
+
+#guide-content p{
+    color: #005d8f;
+}
+
+#guide-content h5 {
+    margin-top: 100px;
+    font-weight: 100px;
+}
+
+footer {
+    border-top: #005d8f50 solid 2px;
+    border-radius: 2px;
+    margin-top: 5vh;
+    padding: 2vh;
+}
+/*
+<div class="guide-card">
+            <img src="#">
+            <div id="content">
+                <h3>Your guide</h3>
+
+*/
